@@ -1,6 +1,13 @@
 package Chap01;
-
 import java.util.Scanner;
+/* 실행 결과
+ * 세 정수의 최댓값을 구합니다.
+ * a의 값 : [ 1 ]
+ * b의 값 : [ 3 ]
+ * c의 값 : [ 2 ]
+ * 최댓값은 3입니다.
+ */
+
 
 class Max3 {
 	public static void main(String[] args) {
