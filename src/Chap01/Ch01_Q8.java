@@ -2,7 +2,7 @@ package Chap01;
 
 import java.util.Scanner;
 
-public class Ch01_Q8 {
+class Ch01_Q8 {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
