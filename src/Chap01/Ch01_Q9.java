@@ -2,7 +2,7 @@ package Chap01;
 
 import java.util.Scanner;
 
-public class Ch01_Q9 {
+class Ch01_Q9 {
 	static int sumof(int a, int b) {
 		int sum = 0;
 		
