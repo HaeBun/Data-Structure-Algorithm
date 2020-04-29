@@ -28,8 +28,5 @@ class Pr1C_1 {
 		System.out.print("c의 값 : "); int c = stdIn.nextInt();
 		
 		System.out.println("중앙값은 "+med3(a, b, c)+"입니다.");
-		
 	}
-	
-	
 }
