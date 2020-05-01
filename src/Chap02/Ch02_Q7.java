@@ -18,9 +18,9 @@ class Ch02_Q7 {
 		} while (x != 0);
 		
 		for (int i = 0; i < digits / 2; i++) { 
-			char temp = d[i];
+			char t = d[i];
 			d[i] = d[digits - i - 1];
-			d[digits - i - 1] = temp;
+			d[digits - i - 1] = t;
 		}
 		
 		return digits;
@@ -28,9 +28,9 @@ class Ch02_Q7 {
 	
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
-		int no;
-		int cd;
-		int dno;
+		int no;	//정수
+		int cd; //변환 진수 
+		int dno;//변환값
 		int retry;
 		char[] cno = new char[32];
 		
